@@ -28,7 +28,6 @@ public class calculatorT {
 	 @Test
 	 public void PlusCheck() {
 		 browser.findElement(By.id("button01")).click();
-
 		 browser.findElement(By.id("buttonplus")).click();
 		 browser.findElement(By.id("button02")).click();
 		 browser.findElement(By.id("buttonequals")).click();
@@ -41,7 +40,6 @@ public class calculatorT {
 	 @Test
 	 public void PlusCheck2() {
 		 browser.findElement(By.id("button06")).click();
-
 		 browser.findElement(By.id("buttonplus")).click();
 		 browser.findElement(By.id("button08")).click();
 		 browser.findElement(By.id("buttonequals")).click();
